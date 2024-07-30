@@ -15,7 +15,7 @@ const Category = ({setCategory}) => {
     },[dispatch])
   return (
     <div className='w-1/6 bg-gray-100 p-4 max-h-screen'>
-        <div className='border-b pb-1 px-2 text-x1 font-bold'>KATEGORİ</div>
+        <div className='border-b pb-1 px-2 text-xl font-bold'>KATEGORİ</div>
         {
             categories?.map((category,i) =>(
                 <div onClick={() => setCategory(category)} className='text-lg cursor-pointer hover:bg-gray-200 p-2' key={i}>{category}</div>

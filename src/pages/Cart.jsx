@@ -16,6 +16,8 @@ const Cart = () => {
       dispatch(getCartTotal())
   
     },[dispatch, carts, navigate ])
+
+    
   return (
     <div>
         {

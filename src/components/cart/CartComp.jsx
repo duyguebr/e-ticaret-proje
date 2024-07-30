@@ -4,6 +4,8 @@ import { useDispatch } from 'react-redux'
 
 const CartComp = ({cart}) => {
   const dispatch = useDispatch()
+
+
   return (
     <div className='my-10 flex items-center justify-between'>
       <img className='w-[150px] h-[150px] object-cover'  src={cart?.image} alt="" />

@@ -7,6 +7,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Detail from "./pages/Detail";
 import Cart from "./pages/Cart";
 import Search from "./pages/Search";
+import Login from "./components/auth/Login";
 
 
 
@@ -21,6 +22,8 @@ function App() {
         <Route path="/products/:id" element={<Detail/>} />
         <Route path="/cart" element={<Cart/>} />
         <Route path="/products/:search" element={<Search/>} />
+        <Route path="/login" element={<Login/>} />
+
         
         
       </Routes>
